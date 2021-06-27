@@ -1,13 +1,15 @@
 'use strict'
 
+
+
 const mongoose = require('mongoose');
 const medicineSchema = require ('./Medicine.model');
-
+const doctorSchema = require('./Doctors.model')
 
 const userSchema = new mongoose.Schema({
     email: { type: String },
     medicine: [medicineSchema],
-  
+    doctor:[doctorSchema]
 })
 
 
@@ -29,7 +31,16 @@ const seedUserData = () => {
         medicineDescription:"IMMUNOSUPPRESSION",
         status:"Avaliable",
         medicineImg:"https://www.petsupplies4less.com/assets/images/012122-5-100-1-HR.jpg",
-        },]
+        },],
+doctor:[{
+nameDoctor: "rrrrr",
+age: "38",
+specialty: "Ophthalmology",
+location: "amman",
+img_url: "https://www.apexhospitals.com/assets/images/resources/dr/vipul-khandelwal-1.jpg",
+date:"02/02/2021"
+},]
+
      
       
     });
