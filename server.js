@@ -7,14 +7,14 @@ require('dotenv').config();
  const axios = require('axios'); // require the package
 const mongoose = require('mongoose');
 const mongoUrl=process.env.MONGO_URL;
+const base = require ('./Controller/base.controller');
 const {getdrugs,
     createDruge,
     updateDrug,
-    deleteDrug} = require('./Controller/User.controller')
-const base = require ('./Controller/base.controller')
-const drugsHandler = require('./Controller/Drugs.Controller')
+    deleteDrug}=require('./Controller/User.controller')
+
 const port = process.env.PORT;
-const seedUserData = require ('./Model/User.model');
+const {seedUserData }= require ('./Model/User.model');
 
 mongoose.connect(`${mongoUrl}`, {useNewUrlParser: true, useUnifiedTopology: true});
 

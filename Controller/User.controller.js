@@ -1,21 +1,17 @@
 "use strict";
 
-const { userModel, seedUserData } = require("../Model/User.model");
+const { userModel} = require("../Model/User.model");
+
 const drugs =require('../healthData/data.json')
 const getdrugs = (req, res) => {
-  const { email } = req.query;
-
   
       res.json(drugs);
- 
-};
+    }
+
 
 const createDruge = (request, response) => {
-   
 
-    console.log(request.body)
     const { email, medicine } = request.body;
-
     userModel.findOne({ email: email }, (error, userData) => {
         if (error) {
             response.send(error)
@@ -24,6 +20,7 @@ const createDruge = (request, response) => {
             userData.medicine.push(medicine);
             userData.save();
             response.json(userData);
+            console.log(request.body);
         }
     })
 }
@@ -56,7 +53,7 @@ const deleteDrug = (request, response) => {
         if (error) {
             response.send(error)
         } else {
-            userData.books.splice(drugIndex,1);
+            userData.medicine.splice(drugIndex,1);
             userData.save();
             response.send(userData)
         }
