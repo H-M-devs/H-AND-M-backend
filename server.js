@@ -10,7 +10,7 @@ const mongoUrl=process.env.MONGO_URL;
 const base = require ('./Controller/base.controller')
 const port = process.env.PORT;
 const seedUserData = require ('./Model/User.model');
-
+const getDoctors = require ('./Controller/doctors.controller');
 mongoose.connect(`${mongoUrl}`, {useNewUrlParser: true, useUnifiedTopology: true});
 
 
@@ -19,6 +19,8 @@ mongoose.connect(`${mongoUrl}`, {useNewUrlParser: true, useUnifiedTopology: true
 
 // a server endpoint 
 app.get('/', base);
+
+app.get('/doctors',getDoctors)
  
 
 
