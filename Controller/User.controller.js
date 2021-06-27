@@ -1,19 +1,13 @@
 "use strict";
 
 const { userModel, seedUserData } = require("../Model/User.model");
-
+const drugs =require('../healthData/data.json')
 const getdrugs = (req, res) => {
   const { email } = req.query;
 
-  userModel.findOne({ email: email }, (error, user) => {
-    if (error) {
-      res.send(error);
-      //console.log(error)
-    } else {
-      res.json(user);
-      //console.log(user)
-    }
-  });
+  
+      res.json(drugs);
+ 
 };
 
 const createDruge = (request, response) => {
