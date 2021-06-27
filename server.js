@@ -4,10 +4,11 @@ const cors = require('cors');
 app.use(cors()) // after you initialize your express app instance 
 app.use(express.json());
 require('dotenv').config();
-// const axios = require('axios'); // require the package
+ const axios = require('axios'); // require the package
 const mongoose = require('mongoose');
 const mongoUrl=process.env.MONGO_URL;
-const base = require ('./Controller/base.controller')
+const base = require ('./Controller/base.controller');
+// const drugsHandler = require('./Controller/Drugs.Controller')
 const port = process.env.PORT;
 const seedUserData = require ('./Model/User.model');
 
@@ -20,8 +21,15 @@ mongoose.connect(`${mongoUrl}`, {useNewUrlParser: true, useUnifiedTopology: true
 // a server endpoint 
 app.get('/', base);
  
+app.get('/drugs', getdrugs)
 
 
+
+app.post('/drug', createDruge);
+
+app.put('/drug/:drug_idx', updateDrug);
+
+app.delete('/drug/:drug_idx', deleteDrug)
 
 
 app.listen(port) // kick start the express server to work

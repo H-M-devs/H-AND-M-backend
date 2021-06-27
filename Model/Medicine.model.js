@@ -6,7 +6,8 @@ const medicineSchema = new mongoose.Schema ({
     medicineName: { type: String },
     medicineDescription : { type: String } ,
     status :  { type: String },
-    medicineImg : {type: String}
+    medicineImg : {type: String},
+   
 })
 
 
