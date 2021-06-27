@@ -3,11 +3,12 @@
 const mongoose = require ('mongoose');
 
 const doctorSchema = new mongoose.Schema ({
-    docName: { type: String },
-    specialty : { type: String } ,
-    long :  { type: String },
-    lat :  { type: String },
-    doctorImg : {type: String}
+    nameDoctor: { type: String },
+    age : { type: String } ,
+    location :  { type: String },
+    specialty :  { type: String },
+    img_url : {type: String},
+    date:{type: String}
 })
 
 
