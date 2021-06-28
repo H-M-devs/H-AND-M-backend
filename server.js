@@ -14,9 +14,13 @@ const {getdrugs,
     getdoctors,
     addDoctor,
     getUser,
+    createUser,
     deleteDoctor,
     updateDoctor,
-    deleteDrug}=require('./Controller/User.controller')
+    deleteDrug}=require('./Controller/User.controller');
+
+
+
 
 const port = process.env.PORT;
 const {seedUserData }= require ('./Model/User.model');
@@ -24,10 +28,13 @@ const {seedUserData }= require ('./Model/User.model');
 mongoose.connect(`${mongoUrl}`, {useNewUrlParser: true, useUnifiedTopology: true});
 
 
+
+
 // seedUserData();
 
 app.get('/', base);
 // a drugs server endpoint 
+app.post('/user',createUser)
 
 app.get('/drugs', getdrugs)
 
@@ -49,7 +56,13 @@ app.delete('/drug/:drug_idx', deleteDrug);
 app.delete('/doctor/:doctor_idx', deleteDoctor);
 
 
+
+
+
+
 app.listen(port) // kick start the express server to work
+
+
 
 
 

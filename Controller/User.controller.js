@@ -1,7 +1,7 @@
 "use strict";
 
-const { userModel } = require("../Model/User.model");
-
+const { userModel,seedUserData } = require("../Model/User.model");
+let doctors = require('../healthData/Doctor.json');
 const drugs = require("../healthData/data.json");
 const doctor = require("../healthData/Doctor.json");
 
@@ -14,6 +14,33 @@ const getdoctors = (req, res) => {
   res.json(doctor);
  
 };
+
+
+
+
+const createUser = (request, response) => {
+  const { email } = request.body;
+  userModel.findOne({ email: email }, (error, userData) => {
+    if (error) {
+      res.send(error);
+   
+    } else {
+      if (userData === null) {
+        seedUserData(email);
+        response.json(userData);
+      }else{
+
+        response.json(userData);
+      }
+      
+    }
+  });
+};
+
+
+
+
+
 
 
 const getUser = (req , res)=>{
@@ -30,16 +57,39 @@ const getUser = (req , res)=>{
 
 const addDoctor = (req , res)=>{
     const { email , doctor} = req.body;
-    userModel.findOne({ email: email }, (error, userData) => {
+    let idx=0;
+    let doc = {};
+    doctors.forEach((value,index)=>{
+
+      if (value.nameDoctor === doctor.nameDoctor) {
+        doc= value;
+        idx=index;
+      }
+
+      return value.nameDoctor === doctor.nameDoctor
+    })
+    console.log(doc);
+    console.log(doctor.date);
+    if (doc.schedual  && doc.schedual.includes(doctor.date)) {
+      res.send('busy');
+    }else{
+      doc.schedual=[...doctor.date]
+      let temp = doc.schedual.join('');
+      doc.schedual=temp;
+      doc.schedual=temp.split(' ')
+      doctors[idx]=doc;
+      
+      console.log( doctors[idx]);
+      userModel.findOne({ email: email }, (error, userData) => {
         if (error) {
           res.send(error);
         } else {
-         
           userData.doctor.push(doctor);
           userData.save();
           res.json(userData);
         }
       });
+    }
     };
 
 
@@ -133,5 +183,6 @@ module.exports = {
   addDoctor,
   getUser,
   updateDoctor,
-  deleteDoctor
+  deleteDoctor,
+  createUser
 };

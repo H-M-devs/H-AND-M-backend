@@ -4,98 +4,113 @@
     "age": 38,
     "specialty": "Ophthalmology",
     "location": "amman",
-    "imgurl": "https://www.apexhospitals.com/assets/images/resources/dr/vipul-khandelwal-1.jpg"
+    "imgurl": "https://www.apexhospitals.com/assets/images/resources/dr/vipul-khandelwal-1.jpg",
+    "schedual":[]
   },
   {
     "nameDoctor": "John",
     "age": 32,
     "specialty": "Pediatrics",
     "location": "madba",
-    "imgurl": "https://ihk.img.co.ug/wp-content/uploads/2020/07/Dr.-Tiri-Moses.jpg"
+    "imgurl": "https://ihk.img.co.ug/wp-content/uploads/2020/07/Dr.-Tiri-Moses.jpg",
+    "schedual":[]
+
   },
   {
     "nameDoctor": "Heba",
     "age": 33,
     "specialty": "Obstetrics and Gynecology",
     "location": "amman",
-    "imgurl": "https://www.nicepng.com/png/detail/30-304043_female-doctor-transparent-background.png"
+    "imgurl": "https://www.nicepng.com/png/detail/30-304043_female-doctor-transparent-background.png",
+    "schedual":[]
   },
   {
     "nameDoctor": "Sharif",
     "age": 32,
     "specialty": "Oncology",
     "location": "amman",
-    "imgurl": "https://res.cloudinary.com/jiyyo/image/upload/v1595570724/jiyyo/webapp/website/src/assets/images/doctor.png"
+    "imgurl": "https://res.cloudinary.com/jiyyo/image/upload/v1595570724/jiyyo/webapp/website/src/assets/images/doctor.png",
+    "schedual":[]
   },
   {
     "nameDoctor": "Sana",
     "age": 31,
     "specialty": "Orthopedics",
     "location": "amman",
-    "imgurl": "https://www.pngitem.com/pimgs/m/111-1115357_female-doctor-png-picture-female-doctor-png-transparent.png"
+    "imgurl": "https://www.pngitem.com/pimgs/m/111-1115357_female-doctor-png-picture-female-doctor-png-transparent.png",
+    "schedual":[]
   },
   {
     "nameDoctor": "Dana",
     "age": 28,
     "specialty": "Obstetrics and Gynecology",
     "location": "amman",
-    "imgurl": "https://image.pngaaa.com/405/5405-middle.png"
+    "imgurl": "https://image.pngaaa.com/405/5405-middle.png",
+    "schedual":[]
   },
   {
     "nameDoctor": "Huda",
     "age": 37,
     "specialty": "Psychiatry",
     "location": "amman",
-    "imgurl": "https://www.pngitem.com/pimgs/m/9-92375_female-doctor-transparent-background-hd-png-download.png"
+    "imgurl": "https://www.pngitem.com/pimgs/m/9-92375_female-doctor-transparent-background-hd-png-download.png",
+    "schedual":[]
   },
   {
     "nameDoctor": "John",
     "age": 31,
     "specialty": "Ear, nose and throat",
     "location": "zarqa",
-    "imgurl": "https://www.plus-doctor.com/images/doctor-img.jpg"
+    "imgurl": "https://www.plus-doctor.com/images/doctor-img.jpg",
+    "schedual":[]
   },
   {
     "nameDoctor": "Suha",
     "age": 35,
     "specialty": "Orthopedics",
     "location": "aqaba",
-    "imgurl": "https://html.webinane.com/medicalist/images/resource/doctor-img.png"
+    "imgurl": "https://html.webinane.com/medicalist/images/resource/doctor-img.png",
+    "schedual":[]
   },
   {
     "nameDoctor": "sama",
     "age": 37,
     "specialty": "Veterinary medicine",
     "location": "zarqa",
-    "imgurl": "https://cdn.picpng.com/doctors_and_nurses/doctors-and-nurses-picture-32678.png"
+    "imgurl": "https://cdn.picpng.com/doctors_and_nurses/doctors-and-nurses-picture-32678.png",
+    "schedual":[]
   },
   {
     "nameDoctor": "taha",
     "age": 50,
     "specialty": "Dentistry",
     "location": "irbid",
-    "imgurl": "https://www.apexhospitals.com/assets/images/resources/dr/sb-jhawar-1.jpg"
+    "imgurl": "https://www.apexhospitals.com/assets/images/resources/dr/sb-jhawar-1.jpg",
+    "schedual":[]
   },
   {
     "nameDoctor": "maria",
     "age": 33,
     "specialty": "Plastic surgery",
     "location": "NewYork",
-    "imgurl": "https://apicona.thememount.com/wp-content/uploads/2014/09/doctor-img10.jpg"
+    "imgurl": "https://apicona.thememount.com/wp-content/uploads/2014/09/doctor-img10.jpg",
+    "schedual":[]
   },
   {
     "nameDoctor": "Mohmmed",
     "age": 44,
     "specialty": "Urology",
     "location": "Ajlon",
-    "imgurl": "https://www.freepnglogos.com/uploads/doctor-png/doctor-declaire-lamacchia-orthopaedic-institute-15.png"
+    "imgurl": "https://www.freepnglogos.com/uploads/doctor-png/doctor-declaire-lamacchia-orthopaedic-institute-15.png",
+    "schedual":[]
   },
   {
     "nameDoctor": "Khalid",
     "age": 29,
     "specialty": "Ophthalmology",
     "location": "salt",
-    "imgurl": "https://cf-cdn.nmc.ae/Uploads/DoctorsPhoto/Thumb1/48449DoctorImage0086ea58-391d-4993-a233-e465eb0bac8b.jpg"
+    "imgurl": "https://cf-cdn.nmc.ae/Uploads/DoctorsPhoto/Thumb1/48449DoctorImage0086ea58-391d-4993-a233-e465eb0bac8b.jpg",
+    "schedual":[]
   },
 
   {
@@ -103,41 +118,47 @@
     "age": 50,
     "specialty": "Dentistry",
     "location": "salt",
-    "imgurl": "https://media.istockphoto.com/photos/handsome-old-doctor-picture-id624724000?k=6&m=624724000&s=170667a&w=0&h=CARXnYKjHCVKAIZLsHUVB1QzvXLh-EstVYUetGxcxi8="
+    "imgurl": "https://media.istockphoto.com/photos/handsome-old-doctor-picture-id624724000?k=6&m=624724000&s=170667a&w=0&h=CARXnYKjHCVKAIZLsHUVB1QzvXLh-EstVYUetGxcxi8=",
+    "schedual":[]
   },
   {
     "nameDoctor": "Weliam",
     "age": 29,
     "specialty": "Psychiatry",
     "location": "Madred",
-    "imgurl": "https://media.istockphoto.com/photos/mature-doctor-at-hospital-picture-id667825190?k=6&m=667825190&s=612x612&w=0&h=AvlRx0Q-JparNgjxs9oOnrt4beweLaXrx7UyZaqj4OE="
+    "imgurl": "https://media.istockphoto.com/photos/mature-doctor-at-hospital-picture-id667825190?k=6&m=667825190&s=612x612&w=0&h=AvlRx0Q-JparNgjxs9oOnrt4beweLaXrx7UyZaqj4OE=",
+    "schedual":[]
   },
   {
     "nameDoctor": "Sofi",
     "age": 51,
     "specialty": "Ophthalmology",
     "location": "Las Vegas",
-    "imgurl": "https://cosmosmagazine.com/wp-content/uploads/2019/12/170516_OlderDoctor_Thumb.jpg"
+    "imgurl": "https://cosmosmagazine.com/wp-content/uploads/2019/12/170516_OlderDoctor_Thumb.jpg",
+    "schedual":[]
   },
   {
     "nameDoctor": "Alex",
     "age": 49,
     "specialty": "Ear, nose and throat",
     "location": "salt",
-    "imgurl": "https://freepikpsd.com/media/2020/02/Old-Doctor-PNG.png"
+    "imgurl": "https://freepikpsd.com/media/2020/02/Old-Doctor-PNG.png",
+    "schedual":[]
   },
   {
     "nameDoctor": "Steve",
     "age": 59,
     "specialty": "Orthopedics",
     "location": "Mixco",
-    "imgurl": "https://image1.masterfile.com/getImage/NzAwLTAwMDQwNjgzZW4uMDAwMDAwMDA=AL6f9Z/700-00040683en_Masterfile.jpg"
+    "imgurl": "https://image1.masterfile.com/getImage/NzAwLTAwMDQwNjgzZW4uMDAwMDAwMDA=AL6f9Z/700-00040683en_Masterfile.jpg",
+    "schedual":[]
   },
   {
     "nameDoctor": "Hadi",
     "age": 29,
     "specialty": "Urology",
     "location": "California",
-    "imgurl": "https://cf-cdn.nmc.ae/Uploads/DoctorsPhoto/Thumb1/48449DoctorImage0086ea58-391d-4993-a233-e465eb0bac8b.jpg"
+    "imgurl": "https://cf-cdn.nmc.ae/Uploads/DoctorsPhoto/Thumb1/48449DoctorImage0086ea58-391d-4993-a233-e465eb0bac8b.jpg",
+    "schedual":[]
   }
 ]
