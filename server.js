@@ -15,8 +15,11 @@ const {getdrugs,
     addDoctor,
     getUser,
     createUser,
+    addToHistory,
     deleteDoctor,
     updateDoctor,
+    deleteDrugs,
+    clearHistory,
     deleteDrug}=require('./Controller/User.controller');
 
 
@@ -55,7 +58,12 @@ app.delete('/drug/:drug_idx', deleteDrug);
 
 app.delete('/doctor/:doctor_idx', deleteDoctor);
 
+// to delete all drugs when the user checked out
+app.delete('/drugs',deleteDrugs);
 
+app.post('/drugs',addToHistory);
+
+app.delete('/history',clearHistory)
 
 
 
