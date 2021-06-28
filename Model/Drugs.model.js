@@ -7,6 +7,7 @@ const drugsSchema = new mongoose.Schema ({
     medicineDescription : { type: String } ,
     status :  { type: String },
     medicineImg : {type: String},
+    ammount : {type: String}
    
 })
 

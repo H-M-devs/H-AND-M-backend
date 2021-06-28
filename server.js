@@ -13,8 +13,9 @@ const {getdrugs,
     updateDrug,
     getdoctors,
     addDoctor,
-   
+    getUser,
     deleteDoctor,
+    updateDoctor,
     deleteDrug}=require('./Controller/User.controller')
 
 const port = process.env.PORT;
@@ -35,7 +36,9 @@ app.get('/doctors', getdoctors)
 app.post('/doctor' , addDoctor)
 // delete and update 
 
-//app.put('/doctor:doctor_idx ', updateDoctor);
+app.put('/doctor/:doctor_idx', updateDoctor);
+
+app.get('/user', getUser);
 
 app.post('/drug', createDruge);
 
@@ -43,7 +46,7 @@ app.put('/drug/:drug_idx', updateDrug);
 
 app.delete('/drug/:drug_idx', deleteDrug);
 
-app.delete('/doctor:doctor_idx', deleteDoctor);
+app.delete('/doctor/:doctor_idx', deleteDoctor);
 
 
 app.listen(port) // kick start the express server to work

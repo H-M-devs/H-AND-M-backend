@@ -7,8 +7,10 @@ const doctorSchema = new mongoose.Schema ({
     age : { type: String } ,
     location :  { type: String },
     specialty :  { type: String },
-    img_url : {type: String},
-    date:{type: String}
+    imgurl : {type: String},
+    date:{type: String},
+    desc:{type: String}
+
 })
 
 
