@@ -174,15 +174,64 @@ const deleteDoctor = (request, response) => {
 
 
 
+
+
+const deleteDrugs = (req,res)=>{
+  const {email} = req.query;
+  userModel.findOne({ email: email},(error,userData)=>{
+    if (error){
+      res.send(error);
+    }else{
+      userData.medicine.splice(0,userData.medicine.length)
+      userData.save();
+      res.json(userData);
+    }
+  })
+}
+
+
+const addToHistory = (request, response) => {
+  const { email, checkout } = request.body;
+  userModel.findOne({ email: email }, (error, userData) => {
+    if (error) {
+      response.send(error);
+    } else {
+      userData.checkout.push(checkout);
+      userData.save();
+      response.json("Done");
+    }
+  });
+};
+
+
+const clearHistory = (req,res)=>{
+  const {email} = req.query;
+  userModel.findOne({ email: email},(error,userData)=>{
+    if (error){
+      res.send(error);
+    }else{
+      userData.checkout.splice(0,userData.checkout.length)
+      userData.save();
+      res.json(userData);
+    }
+  })
+}
+
+
+
+
 module.exports = {
   getdrugs,
   createDruge,
   updateDrug,
   deleteDrug,
   getdoctors,
+  addToHistory,
   addDoctor,
+  clearHistory,
   getUser,
   updateDoctor,
   deleteDoctor,
-  createUser
+  createUser,
+  deleteDrugs
 };

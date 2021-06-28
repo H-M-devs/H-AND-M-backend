@@ -9,7 +9,8 @@ const doctorSchema = require('./Doctors.model')
 const userSchema = new mongoose.Schema({
     email: { type: String },
     medicine: [medicineSchema],
-    doctor:[doctorSchema]
+    doctor:[doctorSchema],
+    checkout:{type: Array}
 })
 
 
