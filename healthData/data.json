@@ -1,193 +1,216 @@
-[{"_id":"60d8368fdbab0326940348ce",
-    "medicineName":"DURAGESIC-100",
-    "medicineDescription":"Duragesic is a prescription medicine used as a transdermal patch to treat the symptoms of chronic, severe pain in opioid-tolerant patients. Duragesic may be used alone or with other medications.",
-    "status":"Avaliable",
-    "medicineImg":"https://img.medscapestatic.com/pi/features/drugdirectory/octupdate/JAN00940.jpg",
-    "__v":0},
-
-    {"_id":"60d8368fdbab0326940348d0",
-    "medicineName":"BONIVA",
-    "medicineDescription":"BONIVA is a prescription medicine used to treat or prevent osteoporosis in women after menopause. BONIVA helps increase bone mass and helps reduce the chance of having a spinal fracture (break).",
-    "status":"Avaliable",
-    "medicineImg":"https://www.henryschein.com/Products/7850003_01_FRONT_S_600x600.jpg",
-    "__v":0},
-
-    {"_id":"60d83691dbab0326940348d2",
-    "medicineName":"IBUPROFEN",
-    "medicineDescription":"Ibuprofen is used primarily to treat fever (including post-vaccination fever), mild to moderate pain , painful menstruation, osteoarthritis, dental pain, headaches, and pain from kidney stones. About 60% of people respond to any NSAID; those who do not respond well to a particular one may respond to another.",
-    "status":"Avaliable",
-    "medicineImg":"https://cdn.shop-apotheke.com/images/ibuprofen-stada-600-zaepfchen-suppositorien-D03754739-p12.jpg",
-    "__v":0},
-
-    {"_id":"60d83692dbab0326940348d4",
-    "medicineName":"LYRICA",
-    "medicineDescription":"This medication is used to treat pain caused by nerve damage due to diabetes, shingles (herpes zoster) infection, or spinal cord injury. This medication is also used to treat pain in people with fibromyalgia.It is also used with other medications to treat certain types of seizures.",
-    "status":"Avaliable",
-    "medicineImg":"https://cdn.shop-apotheke.com/images/lyrica-200mg-hartkapseln-D11538501-p10.jpg",
-    "__v":0},
-
-    {"_id":"60d83693dbab0326940348d6",
-    "medicineName":"DOXYCYCLINE HYCLATE",
-    "medicineDescription":"This medication is used to treat a wide variety of bacterial infections, including those that cause acne. This medication is also used to prevent malaria. This medication is known as a tetracycline antibiotic. It works by stopping the growth of bacteria",
-    "status":"Avaliable",
-    "medicineImg":"https://expressvet.pharmacy/wp-content/uploads/2018/07/Doxycycline-100-mg.jpg",
-    "__v":0},
-
-    {"_id":"60d83694dbab0326940348d8",
-    "medicineName":"LIPITOR",
-    "medicineDescription":"Atorvastatin is used along with a proper diet to help lower bad cholesterol and fats (such as LDL, triglycerides) and raise good cholesterol (HDL) in the blood. It belongs to a group of drugs known as statins, It works by reducing the amount of cholesterol made by the liver.",
-    "status":"Avaliable",
-    "medicineImg":"https://www.farmalisto.com.co/90240-thickbox_default/comprar-lipitor-10-mg-caja-con-30-tabletas-rx-precio-7703283401634.jpg",
-    "__v":0},
-
-    {"_id":"60d83694dbab0326940348da",
-    "medicineName":"LETAIRIS",
-    "medicineDescription":"Ambrisentan is a drug indicated for use in the treatment of pulmonary hypertension. The peptide endothelin constricts muscles in blood vessels, increasing blood pressure. Ambrisentan, which relaxes those muscles, is an endothelin receptor antagonist, and is selective for the type A endothelin receptor.",
-    "status":"Avaliable",
-    "medicineImg":"http://images.ddccdn.com/images/pills/fio/GIL08010.JPG",
-    "__v":0},
-
-    {"_id":"60d83695dbab0326940348dc",
-    "medicineName":"LETAIRIS",
-    "medicineDescription":"Letairis is a prescription medicine used to treat pulmonary arterial hypertension (PAH), which is high blood pressure in the arteries of your lungs",
-    "status":"Avaliable",
-    "medicineImg":"http://images.ddccdn.com/images/pills/fio/GIL08010.JPG",
-    "__v":0},
-
-
-    {"_id":"60d83697dbab0326940348e2",
-    "medicineName":"LYRICA",
-    "medicineDescription":"Fibromyalgia is a perplexing and often debilitating disorder, but treatment can help. Lyrica, a medicine used to treat patients with seizures, pain from shingles, and nerve pain from diabetesand spinal cord injuries, is offering new hope to those living with the pain of fibromyalgia",
-    "status":"Avaliable",
-    "medicineImg":"https://cdn.shop-apotheke.com/images/lyrica-200mg-hartkapseln-D11538501-p10.jpg",
-    "__v":0},
-
-    {"_id":"60d83698dbab0326940348e4",
-    "medicineName":"LETAIRIS",
-    "medicineDescription":"PULMONARY HYPERTENSION",
-    "status":"Avaliable",
-    "medicineImg":"http://images.ddccdn.com/images/pills/fio/GIL08010.JPG",
-    "__v":0},
-
-    {"_id":"60d83699dbab0326940348e6",
-    "medicineName":"ILARIS",
-    "medicineDescription":"CRYOPYRIN ASSOCIATED PERIODIC SYNDROME",
-    "status":"Avaliable",
-    "medicineImg":"http://drugline.info/img/drug/ilarisv-30763_1.jpg",
-    "__v":0},
-
-    {"_id":"60d83699dbab0326940348e8",
-    "medicineName":"LETAIRIS",
-    "medicineDescription":"CHRONIC OBSTRUCTIVE PULMONARY DISEASE",
-    "status":"Avaliable",
-    "medicineImg":"http://images.ddccdn.com/images/pills/fio/GIL08010.JPG",
-    "__v":0},
-
-    {"_id":"60d8369adbab0326940348ea",
-    "medicineName":"LETAIRIS",
-    "medicineDescription":"PRODUCT USED FOR UNKNOWN INDICATION",
-    "status":"Avaliable",
-    "medicineImg":"http://images.ddccdn.com/images/pills/fio/GIL08010.JPG",
-    "__v":0},
-
-    {"_id":"60d8369bdbab0326940348ec",
-    "medicineName":"RANOLAZINE",
-    "medicineDescription":"ANGINA PECTORIS",
-    "status":"Avaliable",
-    "medicineImg":"https://5.imimg.com/data5/NB/TY/GU/SELLER-7038577/ranolazine-500-mg-1000-mg-tablets-500x500.jpeg",
-    "__v":0},
-
-    {"_id":"60d8369cdbab0326940348ee",
-    "medicineName":"LETAIRIS",
-    "medicineDescription":"COR PULMONALE CHRONIC",
-    "status":"Avaliable",
-    "medicineImg":"http://images.ddccdn.com/images/pills/fio/GIL08010.JPG",
-    "__v":0},
-
-    {"_id":"60d8369cdbab0326940348f0",
-    "medicineName":"BENLYSTA",
-    "medicineDescription":"SYSTEMIC LUPUS ERYTHEMATOSUS",
-    "status":"Avaliable",
-    "medicineImg":"http://4.bp.blogspot.com/-51dK1j1YYUw/T3gmdib6bCI/AAAAAAAAADc/Hlv27DP7-qQ/s1600/untitled.JPG",
-    "__v":0},
-
-    {"_id":"60d8369ddbab0326940348f2",
-    "medicineName":"BELIMUMAB",
-    "medicineDescription":"SYSTEMIC LUPUS ERYTHEMATOSUS",
-    "status":"Avaliable",
-    "medicineImg":"http://farmaciainformativa.com/wp-content/uploads/2018/12/belimumab.jpg",
-    "__v":0},
-
-    {"_id":"60d8369edbab0326940348f4",
-    "medicineName":"BENLYSTA",
-    "medicineDescription":"SYSTEMIC LUPUS ERYTHEMATOSUS",
-    "status":"Avaliable",
-    "medicineImg":"http://4.bp.blogspot.com/-51dK1j1YYUw/T3gmdib6bCI/AAAAAAAAADc/Hlv27DP7-qQ/s1600/untitled.JPG",
-    "__v":0},
-
-    {"_id":"60d8369fdbab0326940348f6",
-    "medicineName":"TYVASO",
-    "status":"Avaliable",
-    "medicineImg":"https://www.tyvaso.com/hcp/images/device-images/tyvaso-inhalation-device.png",
-    "__v":0},
-
-    {"_id":"60d8369fdbab0326940348f8",
-    "medicineName":"ACETAMINOPHEN.",
-    "status":"Avaliable",
-    "medicineImg":"https://i5.walmartimages.com/asr/48c30be3-1d83-4fc2-a60c-fe233d611d9e.b966b1fbe08c9eadf40c77486e2a0caf.jpeg",
-    "__v":0},
-
-    {"_id":"60d836a0dbab0326940348fa",
-    "medicineName":"LETAIRIS",
-    "medicineDescription":"PULMONARY HYPERTENSION",
-    "status":"Avaliable",
-    "medicineImg":"http://images.ddccdn.com/images/pills/fio/GIL08010.JPG",
-    "__v":0},
-
-    {"_id":"60d836a1dbab0326940348fc",
-    "medicineName":"PRADAXA",
-    "medicineDescription":"ATRIAL FIBRILLATION",
-    "status":"Avaliable",
-    "medicineImg":"https://cdn.shop-apotheke.com/images/pradaxa-150-mg-hartkapseln-D06561952-p10.jpg",
-    "__v":0},
-
-    {"_id":"60d836a2dbab0326940348fe",
-    "medicineName":"LETAIRIS",
-    "medicineDescription":"PRODUCT USED FOR UNKNOWN INDICATION",
-    "status":"Avaliable",
-    "medicineImg":"http://images.ddccdn.com/images/pills/fio/GIL08010.JPG",
-    "__v":0},
-
-    {"_id":"60d836a2dbab032694034900",
-    "medicineName":"LETAIRIS",
-    "medicineDescription":"PRODUCT USED FOR UNKNOWN INDICATION",
-    "status":"Avaliable",
-    "medicineImg":"http://images.ddccdn.com/images/pills/fio/GIL08010.JPG",
-    "__v":0},
-
-    {"_id":"60d836a3dbab032694034902",
-    "medicineName":"CEFTRIAXONE",
-    "medicineDescription":"LISTERIOSIS",
-    "status":"Avaliable",
-    "medicineImg":"https://cdn11.bigcommerce.com/s-b7xzv15ucx/images/stencil/1280x1280/products/4728/99/Ceftriaxone_1g__22951.1496763083.jpg?c=2&imbypass=on",
-    "__v":0},
-
-    {"_id":"60d836a4dbab032694034904",
-    "medicineName":"PREDNISONE",
-    "medicineDescription":"IMMUNOSUPPRESSION",
-    "status":"Avaliable",
-    "medicineImg":"https://www.petsupplies4less.com/assets/images/012122-5-100-1-HR.jpg",
-    "__v":0},
-
-    {"_id":"60d836a5dbab032694034906",
-    "medicineName":"PACLITAXEL",
-    "medicineDescription":"METASTASES TO BREAST",
-    "status":"Avaliable",
-    "medicineImg":"https://www.cphi-online.com/46/product/96/08/05/p960805img_XL.jpg",
-    "__v":0},
-
-    {"_id":"60d836a5dbab032694034908",
-    "medicineName":"PARACETAMOLO",
-    "medicineDescription":"PAIN",
-    "status":"Avaliable",
-    "medicineImg":"https://farmahome.it/image/cache/data/pharmadb/041467034-503x530.jpg"}]
+[
+    {
+        "_id": "60d8368fdbab0326940348ce",
+        "medicineName": "Aspirin",
+        "medicineDescription": "This drug is used for relieving minor aches, pains, and fevers. People also use it as an anti-inflammatory or a blood thinner",
+        "status": "Avaliable",
+        "medicineImg": "https://adekad.com/wp-content/uploads/2021/01/effervescent-buffed-aspirine-upsa-1000-mg-2x20-1.jpg"
+    },
+    {
+        "_id": "60d8368fdbab0326940348d0",
+        "medicineName": "panadol extra",
+        "medicineDescription": "This drug is used to treat mild to moderate pain (from headaches, menstrual periods, toothaches, backaches, osteoarthritis, or cold/flu aches and pains) and to reduce fever",
+        "status": "Avaliable",
+        "medicineImg": "https://i-cf65ch.gskstatic.com/content/dam/cf-consumer-healthcare/health-professionals/en_SA/pain-relief/Panadol%20Extra.jpg?auto=format"
+    },
+    {
+        "_id": "60d83691dbab0326940348d2",
+        "medicineName": "IBUPROFEN",
+        "medicineDescription": "is an everyday painkiller for a range of aches and pains, including back pain, period pain, toothache",
+        "status": "Avaliable",
+        "medicineImg": "https://assets.sainsburys-groceries.co.uk/gol/1226065/1/640x640.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "60d836a2dbab0326940348fe",
+        "medicineName": "Panda",
+        "medicineDescription": "is a medicine that reduces the amount of acid produced in your stomach. It is used for treating acid-related diseases of the stomach and intestine such as heartburn, acid reflux, peptic ulcer disease,",
+        "status": "Avaliable",
+        "medicineImg": "data:image/jpeg;base64,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",
+        "__v": 0
+    },
+    {
+        "_id": "60d83692dbab0326940348d4",
+        "medicineName": "Vicodin",
+        "medicineDescription": " used to relieve moderate to severe pain. It contains an opioid pain reliever (hydrocodone) and a non-opioid pain reliever (acetaminophen).",
+        "status": "Avaliable",
+        "medicineImg": "https://thevillatreatmentcenter.com/wp-content/uploads/2017/02/vicodin-hydrocodone.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "60d83693dbab0326940348d6",
+        "medicineName": "DOXYCYCLINE",
+        "medicineDescription": "used to treat a wide variety of bacterial infections, including those that cause acne. This medication is also used to prevent malaria. ",
+        "status": "Avaliable",
+        "medicineImg": "https://www.doctorfox.co.uk/imgs-products/zoom/doxycycline-chlamydia.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "60d83694dbab0326940348d8",
+        "medicineName": "Aclovate",
+        "medicineDescription": "used to treat the symptoms of allergic reactions, eczema, and psoriasis (Pruritic Skin Disorders).",
+        "status": "Avaliable",
+        "medicineImg": "https://www.grxstatic.com/d4fuqqd5l3dbz/products/Package_21952.JPG",
+        "__v": 0
+    },
+    {
+        "_id": "60d83694dbab0326940348da",
+        "medicineName": "Lisinopril",
+        "medicineDescription": " used alone or in combination with other medications to treat high blood pressure in adults and children 6 years of age and older.",
+        "status": "Avaliable",
+        "medicineImg": "https://samaalwatan.ly/wp-content/uploads/2019/08/fkh3q6v6pzfhvksvu4od.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "60d83695dbab0326940348dc",
+        "medicineName": "Levothyroxine",
+        "medicineDescription": " is used to treat hypothyroidism (condition where the thyroid gland does not produce enough thyroid hormone)",
+        "status": "Avaliable",
+        "medicineImg": "https://levothyroxine-info.com/levothyroxine.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "60d83697dbab0326940348e2",
+        "medicineName": "Simvastatin",
+        "medicineDescription": "It's used to lower cholesterol if you've been diagnosed with high blood cholesterol.",
+        "status": "Avaliable",
+        "medicineImg": "https://cdn.enabbaladi.net/arabic/wp-content/uploads/2020/08/1-70.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "60d83698dbab0326940348e4",
+        "medicineName": "Losartan",
+        "medicineDescription": " Losartan helps to prevent future strokes, heart attacks and kidney problems.",
+        "status": "Avaliable",
+        "medicineImg": "https://healingpharma.co/wp-content/uploads/2020/05/Cozartan-50-new-1-new.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "60d83699dbab0326940348e6",
+        "medicineName": "ILARIS",
+        "medicineDescription": " used to treat certain types of periodic fever syndromes, which include cryopyrin-associated periodic syndromes",
+        "status": "Avaliable",
+        "medicineImg": "https://www.empr.com/wp-content/uploads/sites/7/2018/12/ilaris-product-shot_376312.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "60d83699dbab0326940348e8",
+        "medicineName": "Omeprazole",
+        "medicineDescription": "reduces the amount of acid your stomach makes. It's a widely used treatment for indigestion and heartburn and acid reflux",
+        "status": "Avaliable",
+        "medicineImg": "https://images-na.ssl-images-amazon.com/images/I/61mycDdqtaS._AC_SX425_.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "60d8369adbab0326940348ea",
+        "medicineName": "Albuterol",
+        "medicineDescription": "is used to prevent and treat difficulty breathing, wheezing, shortness of breath, coughing, and chest tightness caused by lung diseases ",
+        "status": "Avaliable",
+        "medicineImg": "https://5.imimg.com/data5/FM/JN/JJ/SELLER-96316158/albuterol-inhalation-solution-0-083-3ml-25-box-500x500.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "60d8369bdbab0326940348ec",
+        "medicineName": "RANOLAZINE",
+        "medicineDescription": "alone or with other medications to treat chronic angina (ongoing chest pain or pressure that is felt when the heart does not get enough oxygen",
+        "status": "Avaliable",
+        "medicineImg": "https://5.imimg.com/data5/HK/CP/MY-6299000/ranolazine-tablets-500x500.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "60d8369cdbab0326940348ee",
+        "medicineName": "Metformin",
+        "medicineDescription": " used to treat type 2 diabetes, and to help prevent type 2 diabetes if you're at high risk of developing it.",
+        "status": "Avaliable",
+        "medicineImg": "https://5.imimg.com/data5/YN/KI/MY-6299000/metformin-hydrochloride-tablets-500x500.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "60d8369cdbab0326940348f0",
+        "medicineName": "Amoxil ",
+        "medicineDescription": "It's used to treat bacterial infections, such as chest infections (including pneumonia), dental abscesses and urinary tract infections (UTIs). ",
+        "status": "Avaliable",
+        "medicineImg": "https://aligspharmacy.com/wp-content/uploads/2021/02/Amoxil.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "60d8369ddbab0326940348f2",
+        "medicineName": "Baclofen",
+        "medicineDescription": "is used to treat pain and certain types of spasticity (muscle stiffness and tightness) from multiple sclerosis",
+        "status": "Avaliable",
+        "medicineImg": "https://www.baclofen.co.uk/wp-content/uploads/2019/08/baclofen-10mg-.jpeg",
+        "__v": 0
+    },
+    {
+        "_id": "60d8369edbab0326940348f4",
+        "medicineName": "BENLYSTA",
+        "medicineDescription": "a prescription medicine, given intravenously (IV) or subcutaneous, for adults with active systemic lupus lupus: Lupus",
+        "status": "Avaliable",
+        "medicineImg": "https://pharmaphorum.com/wp-content/uploads/2020/12/Benlysta_GSK.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "60d8369fdbab0326940348f6",
+        "medicineName": "TYVASO",
+        "medicineDescription": "used in adults to treat pulmonary arterial hypertension",
+        "status": "Avaliable",
+        "medicineImg": "https://www.empr.com/wp-content/uploads/sites/7/2020/08/tyvaso-product.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "60d8369fdbab0326940348f8",
+        "medicineName": "ACETAMINO",
+        "medicineDescription": "​used to relieve mild to moderate pain from headaches, muscle aches, menstrual periods, colds and sore throats, toothaches, backaches",
+        "status": "Avaliable",
+        "medicineImg": "https://5.imimg.com/data5/SELLER/Default/2021/4/XT/WM/PN/119057726/tylenol-acetaminophen-500-mg-500x500.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "60d836a0dbab0326940348fa",
+        "medicineName": "thymocyte",
+        "medicineDescription": "(ATG) is an infusion of horse or rabbit-derived antibodies against human T cells and their precursors (thymocytes)",
+        "status": "Avaliable",
+        "medicineImg": "https://5.imimg.com/data5/MB/MO/NF/SELLER-68805898/thymogam-anti-thymocyte-immunoglobulin-500x500.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "60d836a1dbab0326940348fc",
+        "medicineName": "PRADAXA",
+        "medicineDescription": " is an anticoagulant that works by blocking the clotting protein thrombin. Pradaxa is used to prevent blood clots from forming because of a certain irregular heart rhythm (atrial fibrillation)",
+        "status": "Avaliable",
+        "medicineImg": "https://cdn.shopify.com/s/files/1/0257/1884/9583/products/44307.jpg?v=1583308386",
+        "__v": 0
+    },
+    {
+        "_id": "60d836a2dbab032694034900",
+        "medicineName": "LETAIRIS",
+        "medicineDescription": "is a prescription medicine used to treat pulmonary arterial hypertension (PAH), which is high blood pressure in the arteries of your lungs",
+        "status": "Avaliable",
+        "medicineImg": "data:image/jpeg;base64,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",
+        "__v": 0
+    },
+    {
+        "_id": "60d836a3dbab032694034902",
+        "medicineName": "CEFTRIAXONE",
+        "medicineDescription": " injection is used to treat certain infections caused by bacteria such as gonorrhea (a sexually transmitted disease), pelvic inflammatory disease (infection of the female reproductive organs that may cause infertility), ",
+        "status": "Avaliable",
+        "medicineImg": "https://dotteb.com/wp-content/uploads/2020/04/CEFTRIAXONE-930x620.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "60d836a4dbab032694034904",
+        "medicineName": "PREDNISONE",
+        "medicineDescription": " is used to treat conditions such as arthritis, blood disorders, breathing problems, severe allergies, skin diseases, cancer, eye problems, and immune system disorders.",
+        "status": "Avaliable",
+        "medicineImg": "https://cdn.mos.cms.futurecdn.net/m8xQaU8ZnvPfq8xiiU5RtW-1200-80.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "60d836a5dbab032694034906",
+        "medicineName": "PACLITAXEL",
+        "medicineDescription": "is used along or along with other chemotherapy medications to treat breast cancer, ovarian cancer (cancer that begins in the female reproductive organs where eggs are formed)",
+        "status": "Avaliable",
+        "medicineImg": "https://www.cphi-online.com/46/product/96/08/05/p960805img_XL.jpg",
+        "__v": 0
+    }
+]

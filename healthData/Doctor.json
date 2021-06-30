@@ -1,12 +1,14 @@
 [
+
   {
-    "nameDoctor": "Ahmad",
-    "age": 38,
-    "specialty": "Ophthalmology",
-    "location": "amman",
-    "imgurl": "https://www.apexhospitals.com/assets/images/resources/dr/vipul-khandelwal-1.jpg",
+    "nameDoctor": "Alex",
+    "age": 49,
+    "specialty": "Ear, nose and throat",
+    "location": "salt",
+    "imgurl": "https://freepikpsd.com/media/2020/02/Old-Doctor-PNG.png",
     "schedual":[]
   },
+  
   {
     "nameDoctor": "John",
     "age": 32,
@@ -24,14 +26,7 @@
     "imgurl": "https://www.nicepng.com/png/detail/30-304043_female-doctor-transparent-background.png",
     "schedual":[]
   },
-  {
-    "nameDoctor": "Sharif",
-    "age": 32,
-    "specialty": "Oncology",
-    "location": "amman",
-    "imgurl": "https://res.cloudinary.com/jiyyo/image/upload/v1595570724/jiyyo/webapp/website/src/assets/images/doctor.png",
-    "schedual":[]
-  },
+  
   {
     "nameDoctor": "Sana",
     "age": 31,
@@ -97,6 +92,22 @@
     "schedual":[]
   },
   {
+    "nameDoctor": "Sharif",
+    "age": 32,
+    "specialty": "Oncology",
+    "location": "amman",
+    "imgurl": "https://res.cloudinary.com/jiyyo/image/upload/v1595570724/jiyyo/webapp/website/src/assets/images/doctor.png",
+    "schedual":[]
+  },
+  {
+    "nameDoctor": "Ahmad",
+    "age": 38,
+    "specialty": "Ophthalmology",
+    "location": "amman",
+    "imgurl": "https://www.apexhospitals.com/assets/images/resources/dr/vipul-khandelwal-1.jpg",
+    "schedual":[]
+  },
+  {
     "nameDoctor": "Mohmmed",
     "age": 44,
     "specialty": "Urology",
@@ -137,14 +148,7 @@
     "imgurl": "https://cosmosmagazine.com/wp-content/uploads/2019/12/170516_OlderDoctor_Thumb.jpg",
     "schedual":[]
   },
-  {
-    "nameDoctor": "Alex",
-    "age": 49,
-    "specialty": "Ear, nose and throat",
-    "location": "salt",
-    "imgurl": "https://freepikpsd.com/media/2020/02/Old-Doctor-PNG.png",
-    "schedual":[]
-  },
+  
   {
     "nameDoctor": "Steve",
     "age": 59,
